@@ -1,0 +1,2483 @@
+[00:00:01.046] Server  LOG     ✓ Ready in 795ms
+[00:00:59.073] Server  LOG     ✓ Compiled in 140ms
+[00:01:11.066] Server  LOG     ✓ Compiled in 28ms
+[00:01:11.173] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:120:1
+Parsing ecmascript source code failed
+  118 | 
+  119 | export default Main;
+> 120 | 
+      | ^
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:01:11.173] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:120:1
+Parsing ecmascript source code failed
+  118 | 
+  119 | export default Main;
+> 120 | 
+      | ^
+
+Unterminated block comment
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:01:31.276] Server  LOG     ✓ Compiled in 56ms
+[00:01:34.058] Server  LOG     ✓ Compiled in 39ms
+[00:02:18.849] Server  LOG     ✓ Compiled in 48ms
+[00:02:25.173] Server  LOG     ✓ Compiled in 39ms
+[00:02:30.430] Server  LOG     ✓ Compiled in 93ms
+[00:02:40.429] Server  LOG     ✓ Compiled in 88ms
+[00:03:27.544] Server  LOG     ✓ Compiled in 44ms
+[00:03:27.646] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:36
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktail.) => (
+     |                                    ^
+  10 |             <CocktailCajita key={cocktail.idDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:03:40.510] Server  LOG     ✓ Compiled in 12ms
+[00:03:40.557] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `CocktailList`. 
+[00:03:41.899] Server  LOG     ✓ Compiled in 20ms
+[00:04:26.024] Server  LOG     ✓ Compiled in 148ms
+[00:04:50.287] Server  LOG     ✓ Compiled in 35ms
+[00:04:53.704] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.705] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.705] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.706] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.715] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.715] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.716] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.716] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.717] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.717] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.717] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.717] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.718] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.718] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.718] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.718] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.719] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.719] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.719] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.720] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.722] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.722] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.722] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.723] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.724] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.724] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.725] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.725] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:53.746] Server  LOG     ✓ Compiled in 60ms
+[00:04:53.850] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:2:1
+Module not found: Can't resolve './CocktailInfo'
+  1 | import { Cocktail } from "@/types";
+> 2 | import { CocktailCajita } from "./CocktailInfo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export const CocktailList = ({ cocktails }: { cocktails: Cocktail[] }) => {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.996] Server  LOG     ✓ Compiled in 5ms
+[00:05:02.099] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx:9:36
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktail.) => (
+     |                                    ^
+  10 |             <CocktailCajita key={cocktail.idDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/Cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:05:06.655] Server  LOG     ✓ Compiled in 21ms
+[00:05:11.841] Server  LOG     ✓ Compiled in 27ms
+[00:05:11.890] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `CocktailList`. 
+[00:05:14.176] Server  LOG     ✓ Compiled in 17ms
+[00:05:15.564] Server  LOG     ✓ Compiled in 17ms
+[00:05:46.175] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.178] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.179] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.180] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.181] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.183] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.184] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.185] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.187] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.189] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.197] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.243] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.246] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.247] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.257] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.258] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.259] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.260] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.262] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.265] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.268] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.269] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.270] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.271] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.274] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.275] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.276] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.276] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:46.278] Server  LOG     ✓ Compiled in 26ms
+[00:05:46.380] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/Cocktails/cocktailList'
+   9 |   getRanCocktail,
+  10 | } from "@/lib/api/cocktail";
+> 11 | import { CocktailList } from "@/components/Cocktails/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const Main = () => {
+  14 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktails/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:05.023] Server  LOG     ✓ Compiled in 76ms
+[00:07:04.786] Server  LOG     ✓ Compiled in 87ms
+[00:08:40.364] Server  LOG     ✓ Compiled in 130ms
+[00:09:21.715] Server  LOG     ✓ Compiled in 109ms
+[00:09:26.284] Server  LOG     ✓ Compiled in 98ms
+[00:09:27.283] Server  LOG     ✓ Compiled in 60ms
+[00:09:53.242] Server  LOG     ✓ Compiled in 92ms
+[00:11:26.934] Server  LOG     ✓ Compiled in 12ms
+[00:11:27.037] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:113:26
+Parsing ecmascript source code failed
+  111 |         </button>
+  112 |         {cocktail && (
+> 113 |           <div className:>
+      |                          ^
+  114 |             <h2>{cocktail.strDrink}</h2>
+  115 |             <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
+  116 |             <p>Category: {cocktail.strCategory}</p>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:11:28.848] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
+[00:11:33.093] Server  LOG     ✓ Compiled in 65ms
+[00:11:34.776] Server  LOG     ✓ Compiled in 68ms
+[00:11:56.755] Server  LOG     ✓ Compiled in 3ms
+[00:13:18.279] Server  LOG     ✓ Compiled in 89ms
+[00:13:18.550] Server  LOG     ✓ Compiled in 104ms
+[00:16:06.928] Server  LOG     ✓ Compiled in 5ms
+[00:16:46.339] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.340] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.340] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.341] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.342] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.342] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.343] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.344] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.346] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.346] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.347] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.348] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.349] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.351] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.352] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.353] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.354] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.355] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.357] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.359] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.360] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.360] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.361] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.362] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.363] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.364] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.364] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.365] Server  ERROR   ⨯ ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:46.372] Server  LOG     ✓ Compiled in 19ms
+[00:16:46.477] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/Cocktail/cocktailList'
+   6 | import { Cocktail } from "@/types";
+   7 | import { getAllCocktails, getRanCocktail } from "@/lib/api/cocktail";
+>  8 | import { CocktailList } from "@/components/Cocktail/cocktailList";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Main = () => {
+  11 |   const [searchFiltro, setSearchFiltro] = useState("");
+
+Import map: aliased to relative './src/components/Cocktail/cocktailList' inside of [project]/Desktop/VS projects/PracticaParcialFront/Cocktail
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:03.369] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktail.str) => (
+     |                           ^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktail.strDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:04.883] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktail.strDrink) => (
+     |                           ^^^^^^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktail.strDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:11.205] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktails.strDrink) => (
+     |                           ^^^^^^^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktail.strDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:13.297] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktails.strDrink) => (
+     |                           ^^^^^^^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktails.strDrink} cocktail={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:14.914] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktails.strDrink) => (
+     |                           ^^^^^^^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktails.strDrink} cocktails={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:18.698] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx:9:27
+Parsing ecmascript source code failed
+   7 |       {cocktails && cocktails.length > 0 ? (
+   8 |         <div className="cocktailsContainer">
+>  9 |           {cocktails.map((cocktails.strDrink,) => (
+     |                           ^^^^^^^^^^^^^^^^^^
+  10 |             <CocktailCajita key={cocktails.strDrink} cocktails={cocktail} />
+  11 |           ))}
+  12 |         </div>
+
+Not a pattern
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/components/cocktails/cocktailList.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component SSR]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:17:22.202] Server  LOG     ✓ Compiled in 543ms
+[00:20:09.645] Server  LOG     ✓ Compiled in 175ms
+[00:21:23.318] Server  LOG     ✓ Compiled in 35ms
+[00:21:34.436] Server  LOG     ✓ Compiled in 15ms
+[00:22:46.186] Server  LOG     ✓ Compiled in 32ms
+[00:24:03.774] Server  LOG     ✓ Compiled in 29ms
+[00:25:49.135] Server  LOG     ✓ Compiled in 45ms
+[00:25:56.356] Server  LOG     ✓ Compiled in 12ms
+[00:27:05.687] Server  LOG     ✓ Compiled in 31ms
+[00:27:05.792] Browser ERROR   ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/style.css:7:57
+Parsing CSS source code failed
+   5 |     radial-gradient(white, rgba(255,255,255,0.15) 1px, transparent 2px),
+   6 |     radial-gradient(white, rgba(255,255,255,0.1) 2px, transparent 3px);*/
+>  7 |   background-size: 550px 550px, 350px 350px, 250px 250px;
+     |                                                         ^
+   8 |   background-position: 0 0, 40px 60px, 130px 270px;
+   9 |   font-family: sans-serif;
+  10 | }
+
+Unexpected token Semicolon
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/style.css [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/style.css [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Client Component Browser]
+    ./Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.tsx [Server Component]
+[00:28:10.386] Server  LOG     ✓ Compiled in 133ms
+[00:28:12.249] Server  LOG     ✓ Compiled in 58ms
+[00:28:13.355] Server  LOG     ✓ Compiled in 121ms
+[00:28:15.561] Server  LOG     ✓ Compiled in 91ms
+[00:28:18.316] Server  LOG     ✓ Compiled in 110ms
+[00:28:40.822] Server  LOG     ✓ Compiled in 94ms
+[00:29:24.658] Server  LOG     ✓ Compiled in 93ms
+[00:29:32.883] Server  LOG     ✓ Compiled in 57ms
+[00:30:03.559] Server  LOG     ✓ Compiled in 89ms
+[00:30:40.664] Server  LOG     ✓ Compiled in 90ms
+[00:30:45.851] Server  LOG     ✓ Compiled in 89ms
+[00:30:47.463] Server  LOG     ✓ Compiled in 85ms
+[00:31:00.401] Server  LOG     ✓ Compiled in 90ms

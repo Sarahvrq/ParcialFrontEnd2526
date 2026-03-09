@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/sarah/Desktop/VS%20projects/PracticaParcialFront/Cocktail/src/app/cocktail/%5Bname%5D/page.css"],"sourcesContent":[".containerDetalle {\n  max-width: 800px;\n  margin: 2rem auto;\n  padding: 2rem;\n  background-color: #4e074b;\n  border: 1px solid #fe4af8;\n  border-radius: 8px;\n}\n\n.containerDetalle h1 {\n  color: #fe4af8;;\n  text-align: center;\n  margin-bottom: 1rem;\n}\n\n.containerDetalle img {\n  display: block;\n  width: 300px;\n  margin: 0 auto 1.5rem;\n  border-radius: 8px;\n  border: 1px solid #fe4af8;;\n}\n\n.infoCard {\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n  margin-bottom: 2rem;\n}\n\n.infoCard p {\n  color: #c9d1d9;\n  font-size: 1rem;\n}\n\n.botonVolver {\n  display: block;\n  margin: 0 auto;\n  padding: 0.5rem 1.5rem;\n  background-color: transparent;\n  border: 1px solid #fe4af8;;\n  color: #fe4af8;;\n  border-radius: 8px;\n  cursor: pointer;\n  font-size: 0.9rem;\n  transition: background-color 0.2s ease;\n}\n\n.botonVolver:hover {\n  background-color: #fe4af8;;\n  color: #4e074b;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAMA;;;;;;;;AAQA;;;;;;;AAOA;;;;;AAKA;;;;;;;;;;;;;AAaA"}}]
+}

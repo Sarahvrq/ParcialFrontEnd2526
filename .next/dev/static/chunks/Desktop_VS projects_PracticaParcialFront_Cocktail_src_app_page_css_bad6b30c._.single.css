@@ -1,0 +1,125 @@
+/* [project]/Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/page.css [app-client] (css) */
+.containerDetalle {
+  text-align: center;
+  background-color: #3c0340;
+  border: 1px solid #fe4af2;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+}
+
+.cocktailsContainer {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  display: grid;
+}
+
+.infoCard {
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  width: 100%;
+  display: flex;
+}
+
+.infoCard p {
+  color: #c9d1d9;
+  margin: 0;
+}
+
+.infoCard ul {
+  margin: .5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.infoCard ul li {
+  color: #c9d1d9;
+  padding: .2rem 0;
+}
+
+.botonVolver {
+  color: #fe4af2;
+  cursor: pointer;
+  background-color: #0000;
+  border: 1px solid #fe4af2;
+  border-radius: 6px;
+  margin-top: 2rem;
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+  transition: background-color .2s;
+}
+
+.botonVolver:hover {
+  color: #3c0226;
+  background-color: #fe4af2;
+}
+
+.BotonRandom {
+  color: #fff;
+  background-color: #17069c;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  outline: none;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto 1rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.CajitaFiltro {
+  color: #c31010;
+  background-color: #1a1a1a;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  margin: 0 auto 1rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.botonCargarMas {
+  color: #fff;
+  background-color: #1a1a1a;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  margin: 0 auto 1rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.CajitaFiltroIngrediente {
+  color: #c9ea5d;
+  background-color: #fe4af2;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  margin: 0 auto 1rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.infoCardRandom {
+  color: #c9d1d9;
+  flex-direction: column;
+  gap: .5rem;
+  margin-bottom: 2rem;
+  padding: .2rem 0;
+  display: flex;
+}
+
+/*# sourceMappingURL=Desktop_VS%20projects_PracticaParcialFront_Cocktail_src_app_page_css_bad6b30c._.single.css.map*/

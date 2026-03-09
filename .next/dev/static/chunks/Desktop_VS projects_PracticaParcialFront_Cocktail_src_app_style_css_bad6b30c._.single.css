@@ -1,0 +1,26 @@
+/* [project]/Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/style.css [app-client] (css) */
+body {
+  background-color: #170211;
+  background-image: radial-gradient(#fff, #fff3 2px, #0000 3px), radial-gradient(#fff, #ffffff26 1px, #0000 2px), radial-gradient(#fff, #ffffff1a 2px, #0000 3px);
+  background-position: 0 0, 40px 60px, 130px 270px;
+  background-size: 550px 550px, 350px 350px, 250px 250px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #ff69b4;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #c9d1d9;
+}
+
+/*# sourceMappingURL=Desktop_VS%20projects_PracticaParcialFront_Cocktail_src_app_style_css_bad6b30c._.single.css.map*/

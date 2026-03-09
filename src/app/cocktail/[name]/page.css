@@ -1,0 +1,52 @@
+.containerDetalle {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #4e074b;
+  border: 1px solid #fe4af8;
+  border-radius: 8px;
+}
+
+.containerDetalle h1 {
+  color: #fe4af8;;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.containerDetalle img {
+  display: block;
+  width: 300px;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #fe4af8;;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.infoCard p {
+  color: #c9d1d9;
+  font-size: 1rem;
+}
+
+.botonVolver {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #fe4af8;;
+  color: #fe4af8;;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.botonVolver:hover {
+  background-color: #fe4af8;;
+  color: #4e074b;
+}

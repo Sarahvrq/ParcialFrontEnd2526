@@ -1,0 +1,55 @@
+/* [project]/Desktop/VS projects/PracticaParcialFront/Cocktail/src/app/cocktail/[name]/page.css [app-client] (css) */
+.containerDetalle {
+  background-color: #4e074b;
+  border: 1px solid #fe4af8;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.containerDetalle h1 {
+  color: #fe4af8;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.containerDetalle img {
+  border: 1px solid #fe4af8;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.infoCard {
+  flex-direction: column;
+  gap: .5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.infoCard p {
+  color: #c9d1d9;
+  font-size: 1rem;
+}
+
+.botonVolver {
+  color: #fe4af8;
+  cursor: pointer;
+  background-color: #0000;
+  border: 1px solid #fe4af8;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: .5rem 1.5rem;
+  font-size: .9rem;
+  transition: background-color .2s;
+  display: block;
+}
+
+.botonVolver:hover {
+  color: #4e074b;
+  background-color: #fe4af8;
+}
+
+/*# sourceMappingURL=3d860_VS%20projects_PracticaParcialFront_Cocktail_src_app_cocktail_%5Bname%5D_page_3a48aa0d.css.map*/

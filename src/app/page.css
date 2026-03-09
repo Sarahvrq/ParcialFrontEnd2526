@@ -1,0 +1,122 @@
+.containerDetalle {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: #3c0340;
+  border: 1px solid #fe4af2;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cocktailsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.infoCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.infoCard p {
+  color: #c9d1d9;
+  margin: 0;
+}
+
+.infoCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.infoCard ul li {
+  color: #c9d1d9;
+  padding: 0.2rem 0;
+}
+
+.botonVolver {
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #fe4af2;
+  color: #fe4af2;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.botonVolver:hover {
+  background-color: #fe4af2;
+  color: #3c0226;
+}
+
+.BotonRandom {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 300px;
+  background-color: #17069c;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+}
+
+.CajitaFiltro {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 300px;
+  background-color: #1a1a1a;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  color: #c31010;
+  outline: none;
+}
+
+.botonCargarMas {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 300px;
+  background-color: #1a1a1a;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+}
+
+.CajitaFiltroIngrediente {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 300px;
+  background-color: #fe4af2;
+  border: 1px solid #fe4af2;
+  border-radius: 8px;
+  color: #c9ea5d;
+  outline: none;
+}
+
+.infoCardRandom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  color: #c9d1d9;
+  padding: 0.2rem 0;
+}

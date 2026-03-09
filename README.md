@@ -1,6 +1,6 @@
-# Listado de Paises - Next
+# ParcialFrontEnd2526: Listado de Cocktails - Next
 
-Este proyecto es una aplicación web que consume la API de REST Countries para mostrar un listado de países del mundo con información detallada de cada uno.
+Este proyecto es una aplicación web que consume la API de FreeCocktailApi para mostrar un listado de cocktails con información detallada de cada uno.
 
 ## Instalación y Configuración
 
@@ -20,7 +20,3 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
    ```
 
-## Navegación
-
-La navegación está construida con Next.js App Router. La ruta principal (`/`) muestra el listado de todos los países. Al hacer clic en "Ver país", se navega a la ruta dinámica `/country/[name]` usando `useRouter` de `next/navigation`. En la página de detalle, se lee el parámetro `name` de la URL con `useParams` y se usa `decodeURIComponent` para recuperar el nombre original del país.
-# ParcialFrontEnd2526
